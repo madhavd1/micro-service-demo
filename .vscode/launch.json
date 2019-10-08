@@ -1,0 +1,74 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.madhavd1.configserver.ConfigServerApplication",
+            "projectName": "config-server",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DiscoveryApplication<discovery-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.madhavd1.discoveryserver.DiscoveryApplication",
+            "projectName": "discovery-server",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayServerApplication<gateway-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.madhavd1.gatewayserver.GatewayServerApplication",
+            "projectName": "gateway-server",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HelloWorldApplication<hello-world-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.madhavd1.helloworldservice.HelloWorldApplication",
+            "projectName": "hello-world-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DateTimeServiceApp<date-time-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.madhavd1.datetimeservice.DateTimeServiceApp",
+            "projectName": "date-time-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DateTimeServiceApp<date-time-service2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.madhavd1.datetimeservice.DateTimeServiceApp",
+            "projectName": "date-time-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UIApplication<ui-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.madhavd1.uiservice.UIApplication",
+            "projectName": "ui-service",
+            "args": ""
+        }
+    ]
+}

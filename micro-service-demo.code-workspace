@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"files.associations": {
+			"*.properties": "spring-boot-properties",
+			"*.yml":"spring-boot-properties-yml"
+		}
+	},
+	
+}

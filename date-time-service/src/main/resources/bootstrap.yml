@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+      name: date-time-service
+eureka:
+  client:
+    service-url:
+        defaultZone: http://localhost:9001/eureka/
